@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="assets/css/problems.css" />
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-4.5.min.css" />
-    
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
     <!-- <link rel="stylesheet" href="assets/css/fontawesome.css" /> -->
     <link rel="stylesheet" href="assets/css/animated.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -45,9 +45,11 @@
               <!-- ***** Menu Start ***** -->
               <ul class="nav" id="nav-ul">
                 <li class="scroll-to-section">
-                  <a href="index.html" class="active">Beranda</a>
+                  <a href="index.html">Beranda</a>
                 </li>
-                <li class="scroll-to-section"><a href="index.html#about">Tentang</a></li>
+                <li class="scroll-to-section">
+                  <a href="index.html#about">Tentang</a>
+                </li>
                 <li class="scroll-to-section">
                   <a href="index.html#services">Tujuan</a>
                 </li>
@@ -57,7 +59,9 @@
                 <li class="scroll-to-section">
                   <a href="index.html#blog">Konsultasi</a>
                 </li>
-                <li class="scroll-to-section"><a href="index.html#contact">Kontak</a></li>
+                <li class="scroll-to-section">
+                  <a href="index.html#contact">Kontak</a>
+                </li>
                 <li class="scroll-to-section">
                   <!-- <div class="border-first-button">
                     <a href="problems.html">Cek Permasalahan</a>
@@ -74,8 +78,6 @@
       </div>
     </header>
 
-    
-    
     <div class="faq_area section_padding_130 w-100 h-100" id="faq">
       <div class="container mt-5">
         <div class="row justify-content-center">
@@ -89,20 +91,21 @@
                 animation-name: fadeInUp;
               "
             >
-              <h3><span>Frequently </span> Asked Questions</h3>
+              <h3 class="fw-bold">Permasalahan</h3>
               <p>
-                Appland is completely creative, lightweight, clean &amp; super
-                responsive app landing page.
+                Ini adalah contoh permasalahan, barangkali bisa membantu
+                permasalahan yang anda alami dalam menjalankan UMKM
               </p>
               <div class="line"></div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-lg-8">
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 col-sm-10">
             <div class="accordion faq-accordian" id="faqAccordion">
+                <!-- Card permasalahan -->
               <div
-                class="card border-0 wow fadeInUp"
+                class="card border-0 wow fadeInUp d-flex"
                 data-wow-delay="0.2s"
                 style="
                   visibility: visible;
@@ -118,7 +121,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    How can I install this app?<span
+                    Permasalahan 1<span
                       class="lni-chevron-up"
                     ></span>
                   </h6>
@@ -142,6 +145,7 @@
                   </div>
                 </div>
               </div>
+                <!-- Card permasalahan -->
               <div
                 class="card border-0 wow fadeInUp"
                 data-wow-delay="0.3s"
@@ -159,7 +163,7 @@
                     aria-expanded="true"
                     aria-controls="collapseTwo"
                   >
-                    The apps isn't installing?<span
+                    Permasalahan 2<span
                       class="lni-chevron-up"
                     ></span>
                   </h6>
@@ -183,6 +187,7 @@
                   </div>
                 </div>
               </div>
+                <!-- Card permasalahan -->
               <div
                 class="card border-0 wow fadeInUp"
                 data-wow-delay="0.4s"
@@ -200,7 +205,7 @@
                     aria-expanded="true"
                     aria-controls="collapseThree"
                   >
-                    Contact form isn't working?<span
+                    Permasalahan 3<span
                       class="lni-chevron-up"
                     ></span>
                   </h6>
@@ -209,6 +214,90 @@
                   class="collapse"
                   id="collapseThree"
                   aria-labelledby="headingThree"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto quidem facere deserunt sint animi sapiente
+                      vitae suscipit.
+                    </p>
+                    <p>
+                      Appland is completely creative, lightweight, clean &amp;
+                      super responsive app landing page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                <!-- Card permasalahan -->
+              <div
+                class="card border-0 wow fadeInUp"
+                data-wow-delay="0.4s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.4s;
+                  animation-name: fadeInUp;
+                "
+              >
+                <div class="card-header" id="heading4">
+                  <h6
+                    class="mb-0 collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse4"
+                    aria-expanded="true"
+                    aria-controls="collapse4"
+                  >
+                    Permasalahan 4<span
+                      class="lni-chevron-up"
+                    ></span>
+                  </h6>
+                </div>
+                <div
+                  class="collapse"
+                  id="collapse4"
+                  aria-labelledby="heading4"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto quidem facere deserunt sint animi sapiente
+                      vitae suscipit.
+                    </p>
+                    <p>
+                      Appland is completely creative, lightweight, clean &amp;
+                      super responsive app landing page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                <!-- Card permasalahan -->
+              <div
+                class="card border-0 wow fadeInUp"
+                data-wow-delay="0.4s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.4s;
+                  animation-name: fadeInUp;
+                "
+              >
+                <div class="card-header" id="heading5">
+                  <h6
+                    class="mb-0 collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse5"
+                    aria-expanded="true"
+                    aria-controls="collapse5"
+                  >
+                    Permasalahan 5<span
+                      class="lni-chevron-up"
+                    ></span>
+                  </h6>
+                </div>
+                <div
+                  class="collapse"
+                  id="collapse5"
+                  aria-labelledby="heading5"
                   data-parent="#faqAccordion"
                 >
                   <div class="card-body">
@@ -236,8 +325,8 @@
               "
             >
               <i class="lni-emoji-sad"></i>
-              <p class="mb-0 px-2">Can't find your answers?</p>
-              <a href="#"> Contact us</a>
+              <p class="mb-0 px-2">Tidak menemukan jawaban?</p>
+              <a href="#">Kontak kami</a>
             </div>
           </div>
         </div>
@@ -250,8 +339,8 @@
     <script src="assets/js/animation.js"></script>
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-    <!-- <script src="assets/js/owl-carousel.js"></script> -->
+    <script src="assets/js/owl-carousel.js"></script>
     <!-- <script src="assets/js/imagesloaded.js"></script> -->
-    <!-- <script src="assets/js/custom.js"></script> -->
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>
